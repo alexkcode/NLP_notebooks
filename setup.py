@@ -10,10 +10,10 @@ config = {
     'download_url': '',
     'author_email': '',
     'version': '0.1',
-    'install_requires': ['nose, nltk'],
-    'packages': ['NAME'],
+    'install_requires': ['nose', 'nltk'],
+    'packages': [],
     'scripts': [],
-    'name': 'nlp_notebooks'
+    'name': 'nlp-notebooks'
 }
 
 setup(**config)
